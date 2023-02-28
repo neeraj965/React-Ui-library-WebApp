@@ -1,0 +1,192 @@
+nav {
+  background-color: blue;
+  height: 3em;
+  width: auto;
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+}
+.low {
+  background-color: white;
+  height: 3em;
+  width: auto;
+  box-shadow: 1px 0.5px 1px gray;
+  > pre {
+    font-weight: 800;
+    margin-left: 5em;
+    padding-top: 1em;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+.sidedpre {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sided {
+  background-color: lavender;
+  height: 100vh;
+  width: 45em;
+  display: flex;
+  justify-content: flex-end;
+}
+.sideintro {
+  background-color: blue;
+  height: 22em;
+  width: 24em;
+  margin-right: 20em;
+  margin-top: 1.5em;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.sidecalender {
+  background-color: #fff;
+  height: 20em;
+  width: 17em;
+  margin-top: 2em;
+  border-radius: 10px;
+  position: absolute;
+}
+.sideday {
+  height: 3em;
+  width: 17em;
+  background-color: blue;
+  position: absolute;
+  margin-top: 24em;
+  border-radius: 5px;
+}
+.sidemusic {
+  height: 9em;
+  width: 24em;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 20em;
+  margin-top: 26em;
+}
+.section {
+  position: absolute;
+  font-size: 4em;
+  font-weight: 700;
+  margin-left: 1.4em;
+  > p > span {
+    color: blue;
+  }
+  >div{
+    font-size: 17px;
+    // font-weight: 500;
+  }
+}
+.getstarted{
+    background-color: blue;
+    height:2em;
+    width:7em;    
+    border-radius: 7px;
+    margin-top: 2em;
+    color:white;
+    text-align: center;
+    cursor: pointer;
+}
+.npm{
+  height:2em;
+  width:20em;
+  background-color:darkgrey;
+  margin-left: 10em;
+  position: absolute;
+  margin-top: -2em;
+  border-radius: 7px;
+  text-align: center;
+  opacity:0.3;
+  cursor: pointer;
+
+}
+
+
+@media (max-width: 769px) {
+  .section {
+    position: absolute;
+    font-size: 2em;
+    font-weight: 700;
+    margin-left: 1em;
+    > p > span {
+      color: blue;
+    }
+    >div{
+        font-size: 10px;
+    }
+  }
+}
+
+
+
+@media (max-width: 769px) {
+
+    
+.sidedpre {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .sided {
+    background-color: lavender;
+    height: 100vh;
+    width: 25em;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sideintro {
+    background-color: blue;
+    height: 19em;
+    width: 12em;
+    margin-right: 12em;
+    margin-top: 1em;
+    border-radius: 5px;
+    position: absolute;
+  }
+  
+  .sidecalender {
+    background-color: #fff;
+    height: 18em;
+    width: 10em;
+    margin-top: 1em;
+    border-radius: 5px;
+    position: absolute;
+  }
+  .sideday {
+    height: 3em;
+    width: 10em;
+    background-color: blue;
+    position: absolute;
+    margin-top: 24em;
+    border-radius: 2.5px;
+  }
+  .sidemusic {
+    height: 9em;
+    width: 12em;
+    position: absolute;
+    background-color: white;
+    border-radius: 2.5px;
+    margin-right: 12em;
+    margin-top: 25em;
+  }
+
+
+}
+@media (max-width:769px){
+
+    .low {
+        background-color: white;
+        height: 3em;
+        width: auto;
+        box-shadow: 1px 0.5px 1px gray;
+        > pre {
+          font-weight: 800;
+          margin-left: 1em;
+          padding-top: 1em;
+          font-size: 14px;
+          cursor: pointer;
+        }
+}
+}
